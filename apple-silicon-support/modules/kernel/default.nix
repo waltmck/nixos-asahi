@@ -70,7 +70,7 @@
       # is 1000) has the potential, though admittedly unlikely, risk of
       # UNBOUNDED data corruption in case of power loss!!!! Don't even think
       # about it on desktops!!
-      "nvme_apple.flush_interval=0"
+      "nvme_apple.flush_interval=1000"
       # make boot mostly silent, not because we don't appreciate the useful
       # information (we do), but because spew slows down boot
       "quiet"
