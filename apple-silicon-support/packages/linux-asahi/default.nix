@@ -49,7 +49,6 @@ let
             
             # These are necessary, otherwise sound is very quiet.
             # According to James Calligeros (chadmed) this is most likely a race condition.
-            SND_DMAENGINE_PC = module;
             SND_SOC_APPLE_MCA = module;
             SND_SOC_APPLE_MACAUDIO = module;
             SND_SOC_CS42L42_CORE = module;
